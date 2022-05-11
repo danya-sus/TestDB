@@ -13,6 +13,8 @@ namespace TestDB
         static private ProductContext _context = new ProductContext();
         static void Main(string[] args)
         {
+            Console.WriteLine("DEV BRANCH");
+
             Date d = Date.Now;
             DateTime dateTime = DateTime.Now;
 
